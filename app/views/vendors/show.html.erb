@@ -2,8 +2,12 @@
 
 <p>Name: <%= @vendor.name %></p>
 
+
+
 <% @vendor.sweets.each do |s| %>
 <li><%=link_to s.name, sweet_path(s) %></li>
 <% end %>
+
+
 
 
