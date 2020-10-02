@@ -8,6 +8,9 @@ class VendorsController < ApplicationController
   end
 
 
-
+  private
+  def vend_params
+    params.require(:vendor).permit(:name)
+  end
   
 end

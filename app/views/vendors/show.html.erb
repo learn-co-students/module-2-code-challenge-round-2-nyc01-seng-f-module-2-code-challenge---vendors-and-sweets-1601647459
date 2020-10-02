@@ -1,1 +1,9 @@
 <h1> <%= @vendor.name %> </h1>
+
+<ul>
+<p> <% @vendor.vendor_sweets.each do |vs| %> </p>
+<p> Sweets Sold: <%= link_to vendor_sweet.sweet.name, sweet_path %> </p>
+<% end %>
+<%# Just had this working and reseeded which threw something off. Almost out of time, but the same is true for the sweet show page%>
+
+</ul>

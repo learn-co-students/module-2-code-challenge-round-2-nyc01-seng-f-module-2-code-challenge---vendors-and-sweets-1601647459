@@ -9,5 +9,11 @@ class SweetsController < ApplicationController
 
 
 
-  
+  private
+  def sweet_params
+    params.require(:sweet).permit(:name)
+  end
+
+
+
 end
