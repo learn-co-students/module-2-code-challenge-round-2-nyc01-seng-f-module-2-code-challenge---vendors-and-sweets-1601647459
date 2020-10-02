@@ -63,7 +63,7 @@ Update the schema and models to add the `VendorSweet` model. It should have:
 - a sweet
 - a price (use an integer data type for this column: we'll treat the numbers in it as the price, in cents).
 
-In the rails console, check that your code works by creating your first `VendorSweet` with a given `Sweet`, `Vendor`, and price.
+In the rails console, check that your code works by creating your first `VendorSweet` with a given `Sweet`, `Vendor`, and price. - done
 
 ### 2. VendorSweet Create Form
 

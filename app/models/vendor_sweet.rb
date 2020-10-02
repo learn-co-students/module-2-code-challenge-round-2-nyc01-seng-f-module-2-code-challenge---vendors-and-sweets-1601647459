@@ -1,0 +1,2 @@
+class VendorSweet < ApplicationRecord
+end
