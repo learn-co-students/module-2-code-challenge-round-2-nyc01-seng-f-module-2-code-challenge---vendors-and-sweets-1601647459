@@ -9,10 +9,12 @@
 <%=form_for @vendorsweet do |v|%>
     <%=v.label :vendor_id%>
     <%=v.collection_select :vendor_id, @vendors, :id, :name%>
+    <br><br>
     <%=v.label :sweet_id%>
     <%=v.collection_select :sweet_id, @sweets, :id, :name%>
+    <br><br>
     <%=v.label :price%>
     <%=v.number_field :price%>
-    <br>
+    <br><br>
     <%=v.submit "Create a VendorSweet!"%>
     <%end%>
