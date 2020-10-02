@@ -1,7 +1,7 @@
 <h1>All Vendors</h1>
 
 <ul>
-  <% @vendors.each do |vendor| %>
-    <li><%= vendor.name %></li>
+  <% @vendors.each do |v| %>
+    <li><%= link_to "#{v.name}", vendor_path(v) %></li>
   <% end  %>
 </ul>
