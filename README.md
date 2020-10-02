@@ -1,4 +1,4 @@
-# Rails Code Challenge - Sweets Vendors
+v# Rails Code Challenge - Sweets Vendors
 
 For this assessment, you'll be working with a vendors and sweets domain.
 
@@ -55,7 +55,7 @@ Update the code of the application to meet the following deliverables. Follow RE
 
 ***Read through these deliverables carefully to understand the requirements for this code challenge. Tackle them one by one, as they build on each other sequentially.***
 
-### 1. Create VendorSweet model
+<!-- ### 1. Create VendorSweet model
 
 Update the schema and models to add the `VendorSweet` model. It should have:
 
@@ -63,7 +63,7 @@ Update the schema and models to add the `VendorSweet` model. It should have:
 - a sweet
 - a price (use an integer data type for this column: we'll treat the numbers in it as the price, in cents).
 
-In the rails console, check that your code works by creating your first `VendorSweet` with a given `Sweet`, `Vendor`, and price.
+In the rails console, check that your code works by creating your first `VendorSweet` with a given `Sweet`, `Vendor`, and price. -->
 
 ### 2. VendorSweet Create Form
 
